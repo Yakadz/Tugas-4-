@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zona VVIBU</title>
+ <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<div id="wrapper">
+    <div class="header">
+    	<input type="checkbox" id="tag-menu"/>
+		  <label class="fa fa-bars menu-bar" for="tag-menu"></label>
+		  <div class="jw-drawer">
+		    <nav>
+		      <ul>
+		        <li><a href="index.html"><i class="fa fa-Home"></i>Home</a></li>
+		        <li><a href="#recomendation"><i class="fa fa-recomendation"></i><p style="font-size: 22px">Recomendation</p></a></li>
+		        <li><a href="#latest"><i class="fa fa-latest"></i>Latest</a></li>
+		        <li><a href="#topmanga"><i class="fa fa-topmanga"></i>Top Manga</a></li>
+		        <li><a href="about.html"><i class="fa About"></i>About</a></li>
+		      </ul>
+		    </nav>
+		  </div>
+		 MangaMania
+		 	<form class="porm">
+   			<input class="search" type="text" placeholder="Search..." required>
+    		<input class="btn-search" type="button" value="Search">		
+			</form>
+      </div>
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="konten1.html"><img class="imgslide" src="img/slide1.png"></a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="konten3.html"><img class="imgslide" src="img/slide2.jpg"></a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="konten2.html"><img class="imgslide" src="img/slide3.png"></a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      </div>
+       </div>
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex> slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); 
+      }
+
+      function detil() {
+      }
+      </script>
+    <div class="container">
+      <div class="kategori" id="recomendation">Recomendation</div>
+      <div class="content2">
+      <div class="konten-utama1">
+      	<a href="konten1.html" >
+                  <img class="gbr-content" src="img/konten1/1.jpg">
+      	</a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      </div>
+      <div class="kategori2">
+            <a href="konten1.html"><div class="namaKonten">God of Highschool</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+      </div>
+	  </div>
+        <br>
+	  <div class="kategori" id="latest">Latest</div>
+	  <div class="content2">
+	  	<div class="konten-utama1">
+      	<a href="konten2.html">
+                  <img class="gbr-content" src="img/konten2/2.jpg">
+      	</a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+	  </div>
+         <div class="kategori2" id="newest">
+            <a href="konten2.html"><div class="namaKonten">Noblesse</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+      </div>
+      <br>
+	  <div class="kategori" id="topmanga">Top Manga</div>
+	  <div class="content2"> 
+	  	<div class="konten-utama1">
+      	<a href="konten3.html">
+                  <img class="gbr-content" src="img/konten3/cover.jpg">
+      	</a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+      	</a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+      <div class="konten-utama1">
+      	<a href="#">
+                  <img class="gbr-content" src="img/NA.png">
+            </a>
+      </div> 
+	</div>
+       <div class="kategori2" id="newest">
+            <a href="konten3.html"><div class="namaKonten">Tower of God</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+            <a href="#"><div class="namaKonten">nama</div></a>
+      </div>
+    </div>
+    <br>
+    <footer class="footer">
+    		Andreano Ferry 
+            <br>
+            <p style="font-size: 12px"> Note : Untuk melihat menu bisa klikk icon strip3 disebelah kiri atas.</p>
+     </footer>
+  </div>
+</body>
+</html>
